@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+    background-image: url(bg.png);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: justify;
+
+    padding: 20px;
+    margin: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    display: flexbox;
+    
+    
+}
+
+header{
+    background-image: url(bg.png) ;
+    color: #0a201d;
+    padding: 10px 20px;
+    text-align: center;
+
+    padding: 20px;
+    margin: 20px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-family: 'Jersey 15", sans-serif';
+}
+
+.neon{
+    font-size: 48px; /* Tamanho da fonte */
+    color: #0d3238; /* Cor do texto */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #9ae763, 0 0 30px #060706, 0 0 40px #9ae763, 0 0 55px #419172, 0 0 75px #419172; /* Sombras de texto para o efeito neon */
+  }
+nav{
+   
+    
+   
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    margin: 20px;
+    background-image: url(bg.png);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    outline: none;
+
+}
+
+button{
+    background-color: #000000; /* Cor de fundo branca */
+        color: #92eb5f; /* Cor do texto preto */
+        border-radius: 10px; /* Bordas arredondadas */
+        padding: 10px 20px; /* Espaçamento interno */
+        border: 1px solid #9ae763; /* Borda sólida preta */
+        cursor: pointer; /* Cursor ao passar o mouse */
+        transition: #000000 0.3s, color 0.3s; /* Transição suave de cores */
+        width: 300px; /* Largura do botão */
+        height: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-grow: 1; /* Faz com que os botões ocupem o mesmo espaço disponível */
+        margin: 0 10px;
+        
+       
+    }
+    
+    /* fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b */
+
+    .botao:hover {
+        /* Cor de fundo preta ao passar o mouse */
+        color:#9ae763; /* Cor do texto branca ao passar o mouse */
+         }
+
+   
+
+    h2  {
+        text-align: center;
+        box-shadow: none;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+  
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#ctt{
+text-align: center;
+}
+
+
+/* AUTORES: */
+
+.paceiros{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.parceiros li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+   border: 2px solid #000000 ;    /*essas 3 configs montam uma borda */
+   border-radius: 10px; /*isso é para arrendodar cantos*/
+    
+}
+
+
+
+.parceiros li:hover h2{
+    font-size: 15px;
+}
+
+.parceiros {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.cargo{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+ul {
+    border: #ffffff;
+    border-radius: 4px;
+}
+
+.pp{
+   width: 150px;
+   height: 150px;
+   border-radius: 50px;
+}
+
+.reds{
+    width: 25px;
+    height: 25px;
+}
+
+
+  
+  
+  #ctt, .reds
+aside {
+  
+    display: block;
+}
